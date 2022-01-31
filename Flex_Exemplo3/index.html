@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando os recursos do FlexBox - Exemplo 3</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox- Aula 1</title>
+    <style type="text/css">
+*{margin:0;}
+
+        .container {
+            display: flex;
+            border:solid orange 5px;
+            width: vw1000;
+            flex-direction: row;
+           justify-content: space-between;
+           align-items:center;
+           max-height:vh140;
+           height:140px;
+ }
+ .item1{
+     color:blue;
+     font-size: 25px;
+     /*align-self:flex-end;*/
+     }
+
+ #cancel{
+    border-radius: 20px;
+    border:2px solid red;
+ }
+ .centro{
+     max-height: vh600;
+     border:1px solid grey;
+     height: 600px;
+ }
+ .rod{
+     display:flex;
+     justify-content: flex-end;
+     flex-flow: column wrap;
+     background-color: black;
+     color:grey;
+     font-size: 14px;
+     max-height: vh120;
+     height: 100px;
+ }
+ .item2{
+     flex-grow:1;
+    
+ }
+ .rod2{
+    display:flex;
+    background-color: grey;
+    flex-direction: column;
+    text-align: center;
+
+ }
+ .img{text-align: center;}
+    </style>
+</head>
+<body>
+    <section class="centro">
+        
+        <div class="container">
+            
+                <div  class="item1">STATUS DO PEDIDO</div>
+    
+                <div id="cancel"  class="item1">CANCELAR PEDIDO</div>
+
+        </div>
+        <div class="img">
+           <img src="IMG/Construir.jpg"> 
+        </div>
+    </section>
+    <footer>
+        <div class="rod">
+            <div class="item2"> FIEB - UNIDADE JARDIM BELVAL  </div>
+            <div class="item2"> CURSO TÉCNICO EM INFORMÁTICA</div>
+            <div class="item2"> FALE CONOSCO</div>
+            <div class="item2"> QUEM SOMOS</div>
+            <div class="item2"> TUTORIAL FLEXBOX</div>
+            <div class="item2"> JOGOS ONLINE PARA TREINAR FLEXBOX</div>
+            
+            <div>BBB</div>
+            <div class="item2"> DESENVOLVIMENTO FRONT-END</div>
+            <div class="item2"> RUA GRUPO BANDEIRANTES s/n - JD BELVAL - BARUERI - SP</div>
+            <div>MATERIAL DE APOIO</div>
+            <div>GitHub</div>
+    </div>
+        <div class="rod2">
+            <div><p>COPYRIGTH 2022 © FIEB  UNIDADE BELVAL</p></div>
+            <div><p> TODOS OS DIREITOS RESERVADOS</p></div>
+            
+        </div>
+    </footer>
+</body>
+</html>
+
+</body>
+</html>
