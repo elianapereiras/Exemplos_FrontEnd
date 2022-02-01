@@ -1,0 +1,11 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+    background-color:gray;
+    
+    
+}
+.item{
+    color:mediumorchid;
+    font-size:30px;
+}
