@@ -1,7 +1,7 @@
 .container{
     display:flex;
-    /*justify-content:space-evenly;*/
-    align-items: stretch;
+    justify-content:space-evenly;
+   /* align-items: stretch;*/
     background-color:gray;
     max-height: 75vh;
     height: 10vh;
@@ -12,8 +12,8 @@
         padding-left: 100px;
     }
 .item2{
-    color:blue;
-    font-size:30px;
+    color:black;
+    font-size:20px;
     align-self:center ;
     flex-grow: 10;   
 }
@@ -21,22 +21,35 @@
     color:white;
     font-size:20px;
     align-self:center ;
+    flex-grow: 2;
     
-    padding-right: 100px;
-    flex-basis: 5em;
     
 }
 .item4{
     
     font-size:20px;
     align-self:center ;
-  
-   text-align: right;
+    
+    text-align: right;
    
 }
+.item5{
+    
+    align-self:center ;
+    }
 a{
     text-decoration: none; 
     border-radius: 10px;
-    border:solid 1px blueviolet;
+    border:solid 1px #aaa;
     padding:5px 40px 5px 40px;
+    color:white;
+}
+.cor{
+    color:#fff;
+    font-size:30px;
+}
+.meio{
+    max-height: 800vh;
+    height: 750vh;
+    border:solid gray 1px;
 }
