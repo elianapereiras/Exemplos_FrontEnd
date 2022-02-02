@@ -1,13 +1,42 @@
 .container{
     display:flex;
-    justify-content:space-evenly;
-    align-content: center;
+    /*justify-content:space-evenly;*/
+    align-items: stretch;
     background-color:gray;
     max-height: 75vh;
     height: 10vh;
+    border:1px solid black;
+}
+.item1{ 
+        align-self:flex-start ;
+        padding-left: 100px;
+    }
+.item2{
+    color:blue;
+    font-size:30px;
+    align-self:center ;
+    flex-grow: 10;   
+}
+.item3{
+    color:white;
+    font-size:20px;
+    align-self:center ;
+    
+    padding-right: 100px;
+    flex-basis: 5em;
     
 }
-.item{
-    color:mediumorchid;
-    font-size:30px;
+.item4{
+    
+    font-size:20px;
+    align-self:center ;
+  
+   text-align: right;
+   
+}
+a{
+    text-decoration: none; 
+    border-radius: 10px;
+    border:solid 1px blueviolet;
+    padding:5px 40px 5px 40px;
 }
