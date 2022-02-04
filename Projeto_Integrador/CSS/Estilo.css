@@ -1,0 +1,9 @@
+.container{
+    background-color: blue;
+    color:#aaa;
+    justify-content: space-between;
+}
+.item1{
+    flex-grow: 1;
+}
+a{text-decoration:none;}
