@@ -34,8 +34,34 @@ ul li a{
     display:flex;
     justify-content: space-evenly;
     width: 100vw;
-    height: 100vh;
-    color:darkblue
+    height: 80vh;
+    color:darkblue;
+    align-items: center;
+    font-size: 30px;
+
+}
+.container3{
+    
+    display:flex;
+    
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 80vh;
+    color:darkblue;
+    align-items: center;
+    font-size: 18px;
+
+}
+.container4{
+    
+    display:flex;
+    background-color: darkblue;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 80vh;
+    color:darkblue;
+    align-items: center;
+    font-size: 18px;
 
 }
 .botao{
@@ -44,5 +70,17 @@ ul li a{
     color:#fff;
     text-decoration:none;
     padding:10px 25px 10px 25px;
-    margin:15px;
+
+    
+}
+p{
+    line-height:50px;
+}
+
+ ul li a .servir{
+    font-size: 150px;
+}
+div img{
+    display: block;
+    width: 100%;
 }
