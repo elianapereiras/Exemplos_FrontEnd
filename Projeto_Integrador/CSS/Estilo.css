@@ -7,6 +7,7 @@ ul {
     padding:10px;
     list-style: none;
 }
+
 ul li{
     display: inline;
 }
@@ -43,7 +44,6 @@ ul li a{
 .container3{
     
     display:flex;
-    
     justify-content: space-evenly;
     width: 100vw;
     height: 80vh;
@@ -53,16 +53,18 @@ ul li a{
 
 }
 .container4{
-    
-    display:flex;
     background-color: darkblue;
-    justify-content: space-evenly;
-    width: 100vw;
+    width: 100%;
     height: 80vh;
-    color:darkblue;
-    align-items: center;
+    color:#fff;
     font-size: 18px;
 
+}
+.servir2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
 }
 .botao{
     border-radius: 15px;
@@ -70,17 +72,56 @@ ul li a{
     color:#fff;
     text-decoration:none;
     padding:10px 25px 10px 25px;
-
+}
+ .botao2{
+    background-color:#fff;
+    color:darkblue;
     
+}
+.container5
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid darkblue;
+}
+ ul li ::before{
+	content:"";
+    width:10px;
+    height:10px;
+    background-color:darkblue;
+    margin-right:5px;
 }
 p{
     line-height:50px;
 }
 
- ul li a .servir{
-    font-size: 150px;
+.item-plano ul li{
+
+	display:flex;
+	Flex-wrap:nowrap;
+	align-items:center;
 }
+.item-plano{
+	flex:1;
+	border:1px solid darkblue;
+	/*margin-right:20px;*/
+}
+.item-plano ul li ::before{
+	content:"";
+    width:10px;
+    height:10px;
+    background-color:darkblue;
+    margin-right:5px;
+} 
+   
+
+
 div img{
     display: block;
     width: 100%;
+}
+div a{
+   font-family: 'Courier New', Courier, monospace;
+   text-decoration: none;
 }
